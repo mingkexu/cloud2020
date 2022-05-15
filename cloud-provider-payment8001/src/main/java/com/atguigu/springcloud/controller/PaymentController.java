@@ -51,6 +51,14 @@ public class PaymentController {
             return  new CommonResult(444,"插入失败"+port,null);
         }
     }
+    @GetMapping(value="/feign/{id}")
+    public CommonResult getFeignById(@PathVariable("id")Long id){
+        if(port != null){
+            return new CommonResult(200,"查询成功"+port);
+        }else{
+            return  new CommonResult(444,"插入失败"+port,null);
+        }
+    }
     @Resource // 自动注入
     private DiscoveryClient discoveryClient;
 

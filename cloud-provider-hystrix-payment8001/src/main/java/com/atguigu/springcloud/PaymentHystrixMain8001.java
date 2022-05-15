@@ -25,7 +25,12 @@ public class PaymentHystrixMain8001 {
     public static void main(String[] args){
         SpringApplication.run(PaymentHystrixMain8001.class,args);
     }
-    @Bean // 注入豪猪的servlet // 该servlet与服务容错本身无关 // springboot默认路径不是/hustrix.stream，只要在自己的项目里自己配置servlet
+
+
+    @Bean
+    // 注入豪猪的servlet
+    // 该servlet与服务容错本身无关
+    // springboot默认路径不是/hustrix.stream，只要在自己的项目里自己配置servlet
     public ServletRegistrationBean getServlet(){
         HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
         ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean(streamServlet);

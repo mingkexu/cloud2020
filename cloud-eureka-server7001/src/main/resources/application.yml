@@ -14,4 +14,4 @@ eureka:
 #      ## 一定要注意这里的地址，这是搭建集群的关键。反过来写，写的是集群中其他Eureka服务器的地址
 #      defaultZone: http://eureka7002.com:7002/eureka/
       ## 单机版（配置自己7001），不再和7002相互守望
-      defaultZone: http://eureka7001.com:7001/eureka/
+      defaultZone: http://eureka7002.com:7002/eureka/
