@@ -12,6 +12,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/docker_boot/pom.xml" />
       </set>
     </option>
   </component>

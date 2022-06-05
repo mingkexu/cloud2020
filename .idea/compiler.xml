@@ -71,6 +71,7 @@
       <module name="cloudalibaba-seata-account2003" target="1.8" />
       <module name="cloudalibaba-seata-storage2002" target="1.8" />
       <module name="cloudalibaba-sentinel-service8401" target="1.8" />
+      <module name="docker_boot" target="1.8" />
       <module name="seata_order_service2001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
